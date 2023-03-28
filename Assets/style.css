@@ -77,10 +77,6 @@
     line-height: 1.5;
   }
   
-  img {
-    display: flex;
-  
-  }
   
   .hero-image {
     position: relative;
@@ -93,7 +89,7 @@
     justify-content: flex-end;
   }
   
-  .hero-text {
+  .header-text {
     color: var(--tertiary);
     display: flex;
     flex-wrap: wrap;
