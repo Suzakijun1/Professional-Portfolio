@@ -85,7 +85,7 @@
   .hero-image {
     position: relative;
     flex-wrap: wrap;
-    background: linear-gradient(0deg, rgba(31, 83, 161, 0.534), rgba(31, 83, 161, 0.534)), url(../images/02-hero-bg.jpg);
+    background: linear-gradient(0deg, rgba(31, 83, 161, 0.534), rgba(31, 83, 161, 0.534)), url(../Assets/images/02-hero-bg.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -245,7 +245,7 @@
   }
   
   figure.surfimage {
-    background-image: url(../Assets/02-portfolio-4.jpg);
+    background-image: url(../Assets/images/02-portfolio-4.jpg);
     background-position: top;
     background-size: cover;
     border: 8px solid var(--secondary);
@@ -261,7 +261,7 @@
   }
   
   figure.ledimage {
-    background-image: url(../Assets/02-portfolio-1.jpg);
+    background-image: url(../Assets/images/02-portfolio-1.jpg);
     background-position: top;
     background-size: cover;
     border: 8px solid var(--secondary);
@@ -278,7 +278,7 @@
   }
   
   figure.calcimage {
-    background-image: url(../Assets/02-portfolio-2.jpg);
+    background-image: url(../Assets/images/02-portfolio-2.jpg);
     background-position: top;
     background-size: cover;
     border: 8px solid var(--secondary);
@@ -295,7 +295,7 @@
   }
   
   figure.pastel {
-    background-image: url(../Assets/02-portfolio-3.jpg);
+    background-image: url(../Assets/images/02-portfolio-3.jpg);
     background-position: top;
     background-size: cover;
     border: 8px solid var(--secondary);
@@ -312,7 +312,7 @@
   }
   
   figure.run {
-    background-image: url(../images/02-run-buddy.jpg);
+    background-image: url(../Assets/images/02-run-buddy.jpg);
     background-position: top;
     background-size: cover;
     border: 8px solid var(--secondary);
