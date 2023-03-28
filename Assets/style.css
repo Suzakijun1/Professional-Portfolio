@@ -216,12 +216,12 @@
   
   figure.surfimage,
   figure.ledimage,
-  figure.calculator,
+  figure.calcimage,
   figure.pastel,
   figure.run {
     background-color: rgba(20, 53, 94, 0.596);
     background-blend-mode: overlay;
-  }
+  } 
   
   figure.surfimage {
     background-image: url(../Assets/images/02-portfolio-4.jpg);
@@ -248,12 +248,6 @@
     margin-top: -6%;
     margin-inline: 32%;
     margin-left: 15.5%;
-    transform: scale(.6);
-    position: relative;
-    flex-wrap: wrap;
-    display: flex;
-    height: 300px;
-    justify-content: flex-end;
   }
   
   figure.calcimage {
@@ -265,12 +259,6 @@
     margin-top: -16.6%;
     margin-left: 48%;
     margin-right: -0.1px;
-    transform: scale(.6);
-    position: relative;
-    flex-wrap: wrap;
-    display: flex;
-    height: 300px;
-    justify-content: flex-end;
   }
   
   figure.pastel {
@@ -282,12 +270,6 @@
     margin-top: -6.5%;
     margin-inline: 32%;
     margin-left: 15.5%;
-    transform: scale(.6);
-    position: relative;
-    flex-wrap: wrap;
-    display: flex;
-    height: 300px;
-    justify-content: flex-end;
   }
   
   figure.run {
@@ -299,6 +281,9 @@
     margin-top: -16.6%;
     margin-left: 48%;
     margin-right: -0.1px;
+  }
+
+  .ledimage, .calcimage, .pastel, .run { /*group image positioning*/
     transform: scale(.6);
     position: relative;
     flex-wrap: wrap;
