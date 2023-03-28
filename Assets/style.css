@@ -170,16 +170,7 @@
     display: flex;
   }
   
-  h3.surftext,
-  h4.surftext,
-  h3.ledtext,
-  h4.ledtext,
-  h3.calctext,
-  h4.calctext,
-  h3.pasteltext,
-  h4.pasteltext,
-  h3.runtext,
-  h4.runtext {
+ h3, h4 {
     display: flex;
     color: var(--dark);
     flex-wrap: wrap;
@@ -215,15 +206,7 @@
   
   h4 {
     font-size: medium;
-  }
-  
-  h4.surftext,
-  h4.ledtext,
-  h4.calctext,
-  h4.pasteltext,
-  h4.runtext {
     margin-bottom: 2.5%;
-  
   }
   
   figure.surfimage:hover,
